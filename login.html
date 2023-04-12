@@ -36,6 +36,15 @@
 			padding: 20px;
 			width: 90%;
 		}
+		div{
+			display: flex;
+			flex-direction: column;
+			margin-left: 40%;
+		}
+		a{
+			margin: 10px;
+			font-weight: bold;
+		}
 		input[type="text"],
 		input[type="password"] {
 			border: 1px solid #cccccc;
@@ -87,8 +96,10 @@
 		<input type="text" id="username" name="username" placeholder="Enter your username">
 		<label for="password">Password:</label>
 		<input type="password" id="password" name="password" placeholder="Enter your password">
-		<input type="submit" value="Login">
+		<div>
+		<a href="index.html">login</a>
 		<a href="signup.html">SignUp</a>
+		</div>
 	</form>
 	<footer>
 		<p>&copy; 2023
