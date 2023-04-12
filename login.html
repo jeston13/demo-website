@@ -72,19 +72,14 @@
 			text-align: center;
 		}
 	</style>
-	<script>
-		function submitForm() {
-			alert("Form submitted successfully!");
-			window.location.href = "index.html";
-		}
-	</script>
 </head>
 <body>
 	<header>
 		<nav>
 			<a href="index.html">Home</a>
 			<a href="about.html">About Us</a>
-			<a href="contact.html">Contact Us</a> 
+			<a href="contact.html">Contact Us</a>
+			<a href="shoppingcart.html">Shopping Cart</a>
 		</nav>
 	</header>
 	<form onsubmit="submitForm(); return false;">
@@ -93,10 +88,11 @@
 		<label for="password">Password:</label>
 		<input type="password" id="password" name="password" placeholder="Enter your password">
 		<input type="submit" value="Login">
+		<a href="signup.html">SignUp</a>
 	</form>
 	<footer>
-		<p>&copy; 2023 
-		<p>Terms of Use</p> | 
+		<p>&copy; 2023
+		<p>Terms of Use</p> |
 		<p>Privacy Policy</p></p>
 	</footer>
 </body>
